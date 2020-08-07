@@ -1,5 +1,4 @@
 from locust import HttpUser, TaskSet, task, User, between, tag, events
-from requests.models import Response
 from secret_config import host
 from tasks_demo import TaskSetDemo, task_demo02
 
